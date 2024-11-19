@@ -11,7 +11,7 @@ namespace API_Kurlishuk.Context
         /// </summary>
         public DishesContext()
         {
-            Database.EnsureCreated();
+            Database.EnsureCreated(); 
             Dishes.Load();
         }
         /// <summary>
